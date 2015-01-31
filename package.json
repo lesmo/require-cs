@@ -1,20 +1,26 @@
 {
-  "name": "cs",
+  "name": "require-cs",
+  "bugs": "https://github.com/requirejs/require-cs/issues",
+  "repository": "https://github.com/lesmo/require-cs-npm.git",
+  "license": "MIT",
   "description": "An AMD loader plugin for CoffeeScript",
+  "contributors": [
+    "Sinuhe Coronel S. <lesmo@lesmo.com.mx> (http://www.lesmo.com.mx)"
+  ],
+  "keywords": [
+    "coffee script",
+    "coffee",
+    "requirejs",
+    "amd"
+  ],
   "categories": [
     "Loader plugins",
     "Parsers & Compilers"
   ],
+  "main": "cs.js",
   "version": "0.5.0",
   "dependencies": {
     "coffee-script": ">=1.2.0"
-  },
-  "main": "cs.js",
-  "volo": {
-    "url": "https://raw.github.com/jrburke/require-cs/{version}/cs.js",
-    "dependencies": {
-      "coffee-script": "jashkenas/coffee-script"
-    }
   },
   "devDependencies": {
     "requirejs": "^2.1.4",
